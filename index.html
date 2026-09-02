@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengarahkan ke Central BDR ...</title>
+    
+    <meta http-equiv="refresh" content="3; url=https://script.google.com/a/macros/marunda-dr.com/s/AKfycbyyTMLMYnt9agRKfblDCsyStI-l0Zhx3fx8vgiFe0QB/dev">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f7f6;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        /* Membuat animasi loading berputar */
+        .loader {
+            border: 5px solid #e0e0e0;
+            border-top: 5px solid #007bff;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader"></div>
+    
+    <h1>Membuka Aplikasi...</h1>
+    <p>Mohon tunggu sebentar, kamu akan diarahkan secara otomatis.</p>
+    
+    <a href="https://script.google.com/a/macros/marunda-dr.com/s/AKfycbyyTMLMYnt9agRKfblDCsyStI-l0Zhx3fx8vgiFe0QB/dev" class="btn">Klik di sini jika tidak diarahkan</a>
+
+    <script>
+        // Fallback: Redirect otomatis menggunakan JavaScript setelah 3 detik (3000 milidetik)
+        setTimeout(function() {
+            window.location.href = "https://script.google.com/a/macros/marunda-dr.com/s/AKfycbyyTMLMYnt9agRKfblDCsyStI-l0Zhx3fx8vgiFe0QB/dev";
+        }, 3000);
+    </script>
+</body>
+</html>
